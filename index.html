@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/freeze.css">
+<script src="lib/EventRecorder.js">
+
+
+
+</script>
+</head>
+
+
+<script type="text/javascript">
+
+var fv, x;
+
+$( document ).ready(function() {
+	
+	$("#A").click(function(){
+	$(this).css("background", "orange");
+	});
+
+
+	$("#B").click(function(){
+	$(this).css("background", "blue");	
+ 	
+	});
+	
+});
+
+</script>
+
+<body>
+	<div id = "Button1" class = "button">1</div>
+	<div class = "button">2</div>
+	<div class = "button">3</div>
+
+<div id = "logo">
+	<div id = "A" class = "button">A</div>
+	<div id = "B" class = "button">B</div>
+	<div id ="C" class = "element">C
+		<div id = "sub" class = "sub">
+			<div class = "sub2"></div>
+		</div>
+	</div>	
+	<div id = "MeToo" class = "button">D</div>
+ 	<textarea id = "Input" rows="4" cols="50">We offer free tutorials in all web development technologies.</textarea> 		
+
+</div>
+
+<div id = "statusbar">STATUSBAR</div>
+
+ 
+</body>
+</html>
+ 
