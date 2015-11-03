@@ -34,7 +34,7 @@ The creation of an instance is easy
 ### Methods
  
 ```javascript
-	###.record
+	### .record
 ``` 
 
 
