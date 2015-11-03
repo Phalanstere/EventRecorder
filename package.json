@@ -1,5 +1,5 @@
 {
-  "name": "EventRecorder",
+  "name": "event-recorder",
   "version": "1.0.0",
   "description": "records events and plays them back",
   "main": "index.js",
@@ -20,6 +20,7 @@
    },
     "devDependencies": {
     "mocha": "^2.2.4",
+    "browserify": "^10.2.4",
     "browserify-css": "~0.7.1",
   	"babelify": "^6.0.0"
   },

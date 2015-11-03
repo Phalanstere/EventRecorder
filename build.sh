@@ -1,0 +1,1 @@
+browserify lib/index.js > bundle.js
