@@ -31,11 +31,11 @@ The creation of an instance is easy
 	EventRecorder = new EventRecorder();
 ``` 
 
-### Methods
+## Methods
  
-```javascript
-	### .record
-``` 
+
+### .record()
+
 
 
 
