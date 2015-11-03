@@ -42,7 +42,7 @@ Starts a recording session
 
 Stops the recording session
 
-### .playback()
+### .replay()
 
 Starts the playback of the recorded data
 
