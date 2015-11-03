@@ -1,8 +1,8 @@
 {
   "name": "event-recorder",
-  "version": "1.0.0",
+  "version": "0.0.13",
   "description": "records events and plays them back",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "test.js"
   },
@@ -16,7 +16,6 @@
     "playback"
   ],
   "dependencies": {
-    "freeze-view":  "^1.0.2"
    },
     "devDependencies": {
     "mocha": "^2.2.4",
