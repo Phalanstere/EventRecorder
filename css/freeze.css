@@ -3,9 +3,10 @@
 position: absolute;
 left: 0;
 top: 0;
-width: 16px;
-height: 16px;
-background: black;
+width: 32px;
+height: 32px;
+background-image: url(cursor.png);
+background-size: 32px 32px;
 border-radius: 8px;
 z-index: 1000;
 }
