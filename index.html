@@ -14,21 +14,41 @@
 </head>
 
 
+
+
 <script type="text/javascript">
 
 var fv, x;
 
 $( document ).ready(function() {
 	
+	x = new EventRecorder();
+	
+	
 	$("#A").click(function(){
 	$(this).css("background", "orange");
+	x.record();
 	});
 
 
 	$("#B").click(function(){
 	$(this).css("background", "blue");	
- 	
+ 	x.stop();
 	});
+
+
+	$("#MeToo").click(function(){
+	$(this).css("background", "yellow");	
+ 	x.replay();
+	});
+
+
+	$("#Button1").click(function(){
+	$(this).css("background", "red");	
+ 	});
+
+
+
 	
 });
 
@@ -38,6 +58,9 @@ $( document ).ready(function() {
 	<div id = "Button1" class = "button">1</div>
 	<div class = "button">2</div>
 	<div class = "button">3</div>
+
+
+
 
 <div id = "logo">
 	<div id = "A" class = "button">A</div>
@@ -53,7 +76,7 @@ $( document ).ready(function() {
 </div>
 
 <div id = "statusbar">STATUSBAR</div>
-
+<div id = "mymouse"></div>
  
 </body>
 </html>
