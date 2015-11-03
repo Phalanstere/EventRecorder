@@ -42,3 +42,11 @@ Starts a recording session
 
 Stops the recording session
 
+### .playback()
+
+Starts the playback of the recorded data
+
+### .json()
+
+Shows the recorded data in a json format. Can be used to copy paste the data and store it.
+
