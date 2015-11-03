@@ -36,6 +36,9 @@ The creation of an instance is easy
 
 ### .record()
 
+Starts a recording session
 
+### .stop()
 
+Stops the recording session
 
