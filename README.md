@@ -5,7 +5,9 @@ This package ist meant to record window events and to replay them. It stores the
 ## Features
 
 In this first and preliminary version, **mouse movements** and **click events** are stored. 
-The support of **key-events**, **mouseover** and **mouseout** will be granted in the upcoming versions
+**keypress** in textareas is working, but it just adds the stored keys to the area. Backspace and the erasure of char is not working.
+This will be improved.
+The support of **mouseover** and **mouseout** will be granted in the upcoming versions
 
 ## Installation
 
@@ -30,6 +32,35 @@ The creation of an instance is easy
 ```javascript
 	EventRecorder = new EventRecorder();
 ``` 
+
+While this makes sense if you want to use the library to store events, you may want to autostart it with alreay stored events.
+Then an expression like this would be used. 
+
+```javascript
+	x = new EventRecorder({
+		autostart: true,
+		events: data
+	});
+``` 
+
+This assumes that you have the data already.
+If you want to read in a json file you make come up with a solution like this:
+
+
+```javascript
+	$.ajax({
+	url: "./test.json",
+	success: function (data) {
+
+		x = new EventRecorder({
+			autostart: true,
+			events: data
+			});
+
+		}
+	});
+``` 
+
 
 ## Methods
  
