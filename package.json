@@ -1,6 +1,6 @@
 {
   "name": "event-recorder",
-  "version": "0.0.13",
+  "version": "0.0.17",
   "description": "records events and plays them back",
   "main": "lib/index.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "playback"
   ],
   "dependencies": {
+  	"jquery": "^2.1.4"
    },
     "devDependencies": {
     "mocha": "^2.2.4",

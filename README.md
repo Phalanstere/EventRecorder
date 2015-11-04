@@ -5,9 +5,8 @@ This package ist meant to record window events and to replay them. It stores the
 ## Features
 
 In this first and preliminary version, **mouse movements** and **click events** are stored. 
-**keypress** in textareas is working, but it just adds the stored keys to the area. Backspace and the erasure of char is not working.
-This will be improved.
-The support of **mouseover** and **mouseout** will be granted in the upcoming versions
+**keypress** in textareas is working, but not perfect (what is missing: copy paste selections).
+This will be improved. The support of **mouseover** and **mouseout** is given.
 
 ## Installation
 
