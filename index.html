@@ -22,7 +22,7 @@ var fv, x;
 
 $( document ).ready(function() {
 	
-	/*
+	
 	$.ajax({
 	url: "./test.json",
 	success: function (data) {
@@ -34,27 +34,27 @@ $( document ).ready(function() {
 
 		}
 	});
-	*/
 	
-	x = new EventRecorder();
+	
+	// x = new EventRecorder();
 	
 
 	
 	
 	$("#A").click(function(){
-	$(this).css("background", "orange");
+	$(this).css("backgroundColor", "orange");
 	x.record();
 	});
 
 
 	$("#B").click(function(){
-	$(this).css("background", "blue");	
+	$(this).css("backgroundColor", "blue");	
  	x.stop();
 	});
 
 
 	$("#C").mouseover(function(){
-	$(this).css("background", "grey");	
+	$(this).css("backgroundColor", "grey");	
 	});
 
 	$("#C").mouseout(function(){
@@ -64,9 +64,14 @@ $( document ).ready(function() {
 
 
 	$("#MeToo").click(function(){
-	$(this).css("background", "yellow");	
+	$(this).css("backgroundColor", "yellow");	
  	x.replay();
 	});
+
+	$("#sub").click(function(){
+ 	$(this).css("backgroundColor", "rgb(255,128,255)"); 	
+	});
+
 
 
 	$("#sub").click(function(){
