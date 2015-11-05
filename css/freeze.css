@@ -107,7 +107,19 @@ z-index: 2;
 position: absolute;
 left: 90%;
 top: 10%;
-height: 60%;
+height: 40%;
+width: 30%;
+border:solid 4px black;	
+padding: 6px;
+}
+
+
+#Input2
+{
+position: absolute;
+left: 90%;
+top: 60%;
+height: 30%;
 width: 30%;
 border:solid 4px black;	
 padding: 6px;
