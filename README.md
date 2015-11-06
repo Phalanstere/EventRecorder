@@ -37,13 +37,14 @@ Then an expression like this would be used.
 
 ```javascript
 	x = new EventRecorder({
-		autostart: true,
-		events: data
+		autostart: false,
+		events: data,
+		recorder: true
 	});
 ``` 
 
-This assumes that you have the data already.
-If you want to read in a json file you make come up with a solution like this:
+The **events** parameter assumes that you have the data already. The **recorder** option lets you decide whether you see the **recorder panel** or not. 
+If you want to read in a json file, you may come up with a solution like this:
 
 
 ```javascript
