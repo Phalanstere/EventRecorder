@@ -124,3 +124,14 @@ width: 30%;
 border:solid 4px black;	
 padding: 6px;
 }
+
+
+
+#Selection
+{
+position: absolute;
+left: 30%;
+top: 2%;
+width: 200px;
+height: auto;	
+}
