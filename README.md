@@ -10,8 +10,8 @@ You can find a [demo](http://burckhardt.ludicmedia.de/EventRecorder) here
 ## Features
 
 In this first and preliminary version, **mouse movements** and **click events** and **select box actions** are stored. 
-**keypress** in textareas is working, but not perfect (what is missing: copy paste selections).
-This will be improved. The support of **mouseover** and **mouseout** is given.
+**keypress** in textareas and input filed is working, as well as **radio-buttons** and **check-boxes**.
+The support of **mouseover** and **mouseout** is given, so the user has a WYSIWYG-website impression.
 
 ## Installation
 
