@@ -2,6 +2,11 @@
 
 This package ist meant to record window events and to replay them. It stores them in a json array, so you can use it for demonstration purposes.
 
+## Demo
+
+You can find a [demo](http://burckhardt.ludicmedia.de/EventRecorder) here
+
+
 ## Features
 
 In this first and preliminary version, **mouse movements** and **click events** and **select box actions** are stored. 
