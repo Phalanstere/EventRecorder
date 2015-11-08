@@ -143,10 +143,11 @@ height: auto;
 position: absolute;
 right: 12%;
 top: 2%;
-color: white;
+color: black;
 width: 240px;
 height: 100px;
-background: darkcyan;	
+background: gainsboro;
+border:solid 2px black;	
 }
 
 
@@ -159,6 +160,7 @@ top: 32%;
 width: 240px;
 height: 100px;
 background: gainsboro;	
+border:solid 2px black;
 }
 
 
@@ -170,4 +172,5 @@ top: 82%;
 width: 340px;
 height: 40px;
 background: gainsboro;	
+border:solid 2px black;
 }

@@ -22,7 +22,7 @@ var fv, x;
 
 $( document ).ready(function() {
 	
-	/*
+	
 	$.ajax({
 	url: "./test.json",
 	success: function (data) {
@@ -35,23 +35,29 @@ $( document ).ready(function() {
 
 		}
 	});
-	*/
 	
+	
+	/*
 	x = new EventRecorder({
 		recorder: true
 	});
-	
+	*/
 
 	
 	
 	$("#A").click(function(){
-	$(this).css("backgroundColor", "orange");
+		var s = $(this).css("background");
+		if (s !== "orange") $(this).css("background", "orange");
+		else 				$(this).css("background", "green");
 	
 	});
 
 
 	$("#B").click(function(){
-	$(this).css("backgroundColor", "blue");	
+
+		var s = $(this).css("background");
+		if (s !== "blue") 	$(this).css("background", "blue");
+		else 				$(this).css("background", "green");
 
 	});
 
@@ -67,7 +73,9 @@ $( document ).ready(function() {
 
 
 	$("#MeToo").click(function(){
-	$(this).css("backgroundColor", "yellow");	
+		var s = $(this).css("background");
+		if (s !== "yellow") 	$(this).css("background", "yellow");
+		else 					$(this).css("background", "green");
 
 	});
 
@@ -96,6 +104,12 @@ $( document ).ready(function() {
 		else 				$(this).css("background", "green");
  	});
 
+	$("#Button3").click(function(){
+		var s = $(this).css("background");
+		if (s !== "red") 	$(this).css("background", "red");
+		else 				$(this).css("background", "green");
+ 	});
+
 	
 });
 
@@ -104,7 +118,7 @@ $( document ).ready(function() {
 <body>
 	<div id = "Button1" class = "button">1</div>
 	<div id = "Button2" class = "button">2</div>
-	<div class = "button">3</div>
+	<div id = "Button3" class = "button">3</div>
 
 
 
@@ -118,8 +132,8 @@ $( document ).ready(function() {
 		</div>
 	</div>	
 	<div id = "MeToo" class = "button">D</div>
- 	<textarea id = "Input" rows="4" cols="50">We offer free tutorials in all web development technologies.</textarea> 		
- 	<textarea id = "Input2" rows="4" cols="50">We offer free tutorials in all web development technologies.</textarea> 	
+ 	<textarea id = "Input" rows="4" cols="50"></textarea> 		
+ 	<textarea id = "Input2" rows="4" cols="50"></textarea> 	
 
 	<form id = "MyForm">
 	  First name:<br>
