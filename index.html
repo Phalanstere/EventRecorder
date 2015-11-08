@@ -22,21 +22,24 @@ var fv, x;
 
 $( document ).ready(function() {
 	
-	
+	/*
 	$.ajax({
 	url: "./test.json",
 	success: function (data) {
 
 		x = new EventRecorder({
 			autostart: true,
-			events: data
+			events: data,
+			recorder: true,
 			});
 
 		}
 	});
+	*/
 	
-	
-	// x = new EventRecorder();
+	x = new EventRecorder({
+		recorder: true
+	});
 	
 
 	
@@ -87,7 +90,11 @@ $( document ).ready(function() {
 		else 				$(this).css("background", "green");
  	});
 
-
+	$("#Button2").click(function(){
+		var s = $(this).css("background");
+		if (s !== "red") 	$(this).css("background", "red");
+		else 				$(this).css("background", "green");
+ 	});
 
 	
 });
@@ -96,7 +103,7 @@ $( document ).ready(function() {
 
 <body>
 	<div id = "Button1" class = "button">1</div>
-	<div class = "button">2</div>
+	<div id = "Button2" class = "button">2</div>
 	<div class = "button">3</div>
 
 
@@ -112,8 +119,54 @@ $( document ).ready(function() {
 	</div>	
 	<div id = "MeToo" class = "button">D</div>
  	<textarea id = "Input" rows="4" cols="50">We offer free tutorials in all web development technologies.</textarea> 		
+ 	<textarea id = "Input2" rows="4" cols="50">We offer free tutorials in all web development technologies.</textarea> 	
+
+	<form id = "MyForm">
+	  First name:<br>
+	  <input type="text" name="firstname">
+	  <br>
+	  Last name:<br>
+	  <input type="text" name="lastname">
+	</form>
+
+
+	<form id = "Gender">
+	  <input type="radio" name="sex" value="male" checked>Male
+	  <br>
+	  <input type="radio" name="sex" value="female">Female
+	</form>
+
+
+	<form id = "Check" action="#"> 
+	  <fieldset> 
+	    <label for="check1">
+	      <input type="checkbox" name="zutat" value="salami" id="check1">
+	      Salami
+	    </label> 
+	    <label for="check2">
+	       <input type="checkbox" name="zutat" value="schinken" id="check2">
+	       Schinken
+	    </label> 
+	    <label for="check3">
+	      <input type="checkbox" name="zutat" value="sardellen" id="check3">
+	      Sardellen
+	    </label> 
+	  </fieldset> 
+	</form>
+
 
 </div>
+
+<select id="Selection" name="ddProducts"> 
+<option>Electronics</option>
+<option>Sports</option>
+<option>Nutrition</option>
+<option>Tennis</option>
+</select>
+
+
+
+
 
 <div id = "statusbar">STATUSBAR</div>
 <div id = "mymouse"></div>

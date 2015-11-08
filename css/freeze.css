@@ -135,3 +135,39 @@ top: 2%;
 width: 200px;
 height: auto;	
 }
+
+
+
+#MyForm
+{
+position: absolute;
+right: 12%;
+top: 2%;
+color: white;
+width: 240px;
+height: 100px;
+background: darkcyan;	
+}
+
+
+
+#Gender
+{
+position: absolute;
+right: 12%;
+top: 32%;
+width: 240px;
+height: 100px;
+background: gainsboro;	
+}
+
+
+#Check
+{
+position: absolute;
+right: 17%;
+top: 82%;
+width: 340px;
+height: 40px;
+background: gainsboro;	
+}
