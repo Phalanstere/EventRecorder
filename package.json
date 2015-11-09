@@ -1,6 +1,6 @@
 {
   "name": "event-recorder",
-  "version": "0.0.17",
+  "version": "0.0.24",
   "description": "records events and plays them back",
   "main": "lib/index.js",
   "scripts": {

@@ -57,6 +57,10 @@ z-index: 2;
 }
 
 
+
+
+
+
 .element
 {
 border:solid 3px black;
@@ -148,6 +152,7 @@ width: 240px;
 height: 100px;
 background: gainsboro;
 border:solid 2px black;	
+padding: 8px;
 }
 
 
@@ -160,6 +165,7 @@ top: 32%;
 width: 240px;
 height: 100px;
 background: gainsboro;	
+padding: 8px;
 border:solid 2px black;
 }
 

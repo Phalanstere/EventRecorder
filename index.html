@@ -22,7 +22,7 @@ var fv, x;
 
 $( document ).ready(function() {
 	
-	/*
+	
 	$.ajax({
 	url: "./test.json",
 	success: function (data) {
@@ -35,13 +35,13 @@ $( document ).ready(function() {
 
 		}
 	});
-	*/
 	
 	
+	/*
 	x = new EventRecorder({
 		recorder: true
 	});
-	
+	*/
 
 	
 	
@@ -51,6 +51,34 @@ $( document ).ready(function() {
 		else 				$(this).css("background", "green");
 	
 	});
+
+	$("#Gender").mouseover(function(){
+		$(this).css("background", "rgb(255,233,200)");
+	});
+
+	$("#Gender").mouseout(function(){
+		$(this).css("background", "gainsboro");
+	});
+
+	$("#MyForm").mouseover(function(){
+		$(this).css("background", "rgb(255,233,200)");
+	});
+
+	$("#MyForm").mouseout(function(){
+		$(this).css("background", "gainsboro");
+	});
+
+
+
+
+	$("#Selection").focus(function(){
+		$(this).css("background", "pink");
+	});
+
+	$("#Selection").blur(function(){
+		$(this).css("background", "gainsboro");
+	});
+
 
 
 	$("#B").click(function(){
@@ -158,12 +186,12 @@ $( document ).ready(function() {
 	      Salami
 	    </label> 
 	    <label for="check2">
-	       <input type="checkbox" name="zutat" value="schinken" id="check2">
-	       Schinken
+	       <input type="checkbox" name="zutat" value="ham" id="check2">
+	       Ham
 	    </label> 
 	    <label for="check3">
-	      <input type="checkbox" name="zutat" value="sardellen" id="check3">
-	      Sardellen
+	      <input type="checkbox" name="zutat" value="mozzarella" id="check3">
+	      Mozzarella
 	    </label> 
 	  </fieldset> 
 	</form>
