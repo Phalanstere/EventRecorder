@@ -9,9 +9,12 @@ You can find a [demo](http://burckhardt.ludicmedia.de/EventRecorder) here
 
 ## Features
 
-In this first and preliminary version, **mouse movements** and **click events** and **select box actions** are stored. 
+In this first and preliminary version, **mouse movements**. **click events** and **select box actions** are stored. 
 **keypress** in textareas and input filed is working, as well as **radio-buttons** and **check-boxes**.
 The support of **mouseover** and **mouseout** is given, so the user has a WYSIWYG-website impression.
+
+Form version 0.0.25 the playback of an  **audio commend** is supported, as well as the option to record or dub your audio-comment (as an mp3 file)  
+
 
 ## Installation
 
@@ -60,6 +63,7 @@ If you want to read in a json file, you may come up with a solution like this:
 		x = new EventRecorder({
 			autostart: true,
 			events: data
+			audioFile: 'audio_comment.mp3'
 			});
 
 		}
@@ -86,3 +90,6 @@ Starts the playback of the recorded data
 
 Shows the recorded data in a json format. Can be used to copy paste the data and store it.
 
+### .find_events(type)
+
+ 
