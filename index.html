@@ -6,6 +6,7 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="css/freeze.css">
+<script src="lib/recordmp3.js"></script>
 <script src="lib/EventRecorder.js">
 
 
@@ -22,7 +23,7 @@ var fv, x;
 
 $( document ).ready(function() {
 	
-	
+	/*
 	$.ajax({
 	url: "./test.json",
 	success: function (data) {
@@ -35,17 +36,23 @@ $( document ).ready(function() {
 
 		}
 	});
+	*/
 	
 	
-	/*
 	x = new EventRecorder({
 		recorder: true
 	});
-	*/
+	
 
 	
 	
 	$("#A").click(function(){
+		$(this).css({
+			height: "120px",
+			fontSize: "62px",
+			});
+
+		
 		var s = $(this).css("background");
 		if (s !== "orange") $(this).css("background", "orange");
 		else 				$(this).css("background", "green");
@@ -209,7 +216,6 @@ $( document ).ready(function() {
 
 
 <div id = "mymouse"></div>
- 
 </body>
 </html>
  
