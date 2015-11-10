@@ -13,7 +13,7 @@ In this first and preliminary version, **mouse movements**. **click events** and
 **keypress** in textareas and input filed is working, as well as **radio-buttons** and **check-boxes**.
 The support of **mouseover** and **mouseout** is given, so the user has a WYSIWYG-website impression.
 
-Form version 0.0.25 the playback of an  **audio commend** is supported, as well as the option to record or dub your audio-comment (as an mp3 file)  
+From version 0.0.25 onwards the playback of an  **audio commend** is supported, as well as the option to **record or dub your audio-comment** (as an mp3 file)  
 
 
 ## Installation
