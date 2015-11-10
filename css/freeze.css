@@ -180,3 +180,14 @@ height: 40px;
 background: gainsboro;	
 border:solid 2px black;
 }
+
+
+#audio-player
+{
+position: absolute;
+right: 2%;
+width: 360px;
+height: 24px;
+top: 1%;
+background: gainsboro;	
+}
