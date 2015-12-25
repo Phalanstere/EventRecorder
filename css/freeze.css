@@ -1,3 +1,23 @@
+body
+{
+	
+overflow: none;
+}
+
+#innertext
+{
+position: absolute;
+left: 5%;
+top: 50%;
+width: 20%;
+height: 30%;	
+background: white;
+padding: 5px;
+font-size: 12px;
+overflow-y: auto;
+}
+
+
 #mymouse
 {
 position: absolute;
